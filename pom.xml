@@ -1,11 +1,9 @@
 <?xml version="1.0"?>
-<project
-        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-        xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.collectivecycling</groupId>
     <artifactId>fit2thrift</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>Fit2Thrift</name>
     <description>
         Fit2Thrift reads a binary ant+ .fit format file and converts it into an Apache Thrift structure.
@@ -17,7 +15,8 @@
         <connection>scm:git:git://github.com/CollectiveCycling/Fit2Thrift.git</connection>
         <developerConnection>scm:git:https://github.com/CollectiveCycling/Fit2Thrift.git</developerConnection>
         <url>https://github.com/CollectiveCycling/Fit2Thrift.git</url>
-    </scm>
+      <tag>fit2thrift-0.0.1</tag>
+  </scm>
     <developers>
         <developer>
             <id>hortovanyi</id>
