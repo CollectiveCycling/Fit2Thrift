@@ -29,7 +29,8 @@ To run on the command line
     mvn package
     java -jar target/fit2thrift-<<version>>-jar-with-dependencies.jar <<fit filename>>
     
-To code
+Developing against
+------------------
 
     mvn install
 
