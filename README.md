@@ -5,7 +5,7 @@ Installation
 
 To use this package you will need to download and install into your local maven repository the Ant+ FIT SDK.  It can be found here https://www.thisisant.com/resources/fit.
 
-After accepting the conditions, downloading and unzipping it, install it with: 
+After accepting the conditions, downloading and unzipping it, install it in your local maven repository with: 
 
     mvn install:install-file -Dfile=Downloads/FitSDKRelease_20.00.00/java/fit.jar -DgroupId=com.garmin -DartifactId=fit -Dversion=20.0.0 -Dpackaging=jar
 
@@ -17,7 +17,7 @@ Clone the project locally
     cd <<fit_play>>
     git clone https://github.com/CollectiveCycling/Fit2Thrift.git
     
-If local repository FIT SDK version number is different. You'll need to update the <fit.version> tag in the properties section of the pom.xml.
+If local repository FIT SDK version number is different. You'll need to update the fit.version tag in the properties section of the pom.xml.
 
 Run the maven test script. It will generate the thrift sources and execute junit tests to do a test conversion. By default all debug statements are on and the output is fairly verbose.
 
@@ -36,10 +36,11 @@ Developing against
 
   
 ```java
+import com.collectivecycling.fit2thrift.Fit;
 import com.collectivecycling.fit2thrift.thrift.fit.FitData;
     
 String fitDataFileName = ;
-FitData fitData = toThrift(fitDataFileName);
+FitData fitData = Fit.toThrift(fitDataFileName);
 ```
 
 fitData contains generated thrift APIs to access Activites, Laps, Sessions etc that corresponds to the following 
