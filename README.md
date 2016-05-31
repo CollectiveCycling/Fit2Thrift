@@ -59,9 +59,3 @@ struct FitData {
 	11: TimestampCorrelation timestampCorrelation;
 }
 ```
-
-
-    
-    
-    
-
