@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.collectivecycling</groupId>
     <artifactId>fit2thrift</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>Fit2Thrift</name>
     <description>
         Fit2Thrift reads a binary ant+ .fit format file and converts it into an Apache Thrift structure.
@@ -15,7 +15,7 @@
         <connection>scm:git:git://github.com/CollectiveCycling/Fit2Thrift.git</connection>
         <developerConnection>scm:git:https://github.com/CollectiveCycling/Fit2Thrift.git</developerConnection>
         <url>https://github.com/CollectiveCycling/Fit2Thrift.git</url>
-      <tag>fit2thrift-0.0.1</tag>
+      <tag>fit2thrift-0.0.2</tag>
   </scm>
     <developers>
         <developer>
