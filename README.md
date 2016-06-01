@@ -5,6 +5,8 @@ Installation
 
 To use this package you will need to download and install into your local maven repository the Ant+ FIT SDK.  It can be found here https://www.thisisant.com/resources/fit.
 
+Its been developed and tested using JDK 8.
+
 After accepting the conditions, downloading and unzipping it, install it in your local maven repository with: 
 
     mvn install:install-file -Dfile=Downloads/FitSDKRelease_20.00.00/java/fit.jar -DgroupId=com.garmin -DartifactId=fit -Dversion=20.0.0 -Dpackaging=jar
